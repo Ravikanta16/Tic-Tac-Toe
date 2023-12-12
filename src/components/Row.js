@@ -1,10 +1,10 @@
 import Cell from "./Cell";
-export default function Row(){
+export default function Row({flag,setflag}){
     return(
         <div className="row">
-            <Cell />
-            <Cell />
-            <Cell />
+            <Cell flag={flag} setflag={setflag}/>
+            <Cell flag={flag} setflag={setflag}/>
+            <Cell flag={flag} setflag={setflag}/>
         </div>
     );
 }
